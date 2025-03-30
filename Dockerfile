@@ -2,7 +2,7 @@
 FROM php:8.1-cli
 
 # Copy the PHP file into the container
-COPY thingy.php /var/www/html/
+COPY Thinngy.php /var/www/html/
 
 # Expose port 8000 for the web server
 EXPOSE 8000
